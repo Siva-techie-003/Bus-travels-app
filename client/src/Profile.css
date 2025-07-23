@@ -1,0 +1,54 @@
+.profile-wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-box label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.profile_butt{
+display: flex;
+gap: 25px;
+justify-content: center;
+align-items: center;
+}
+.save-btn,
+.logout-btn {
+  margin-top: 20px;
+  width: 150px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #f36170;
+  color: white;
+}
