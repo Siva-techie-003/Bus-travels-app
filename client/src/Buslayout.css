@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: bisque;
+}
+.navbar {
+  position: fixed;
+  background-color: rgb(19, 75, 109);
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  height: 60px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+
+.name {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.na {
+  display: flex;
+  gap: 50px;
+  margin-right: 70px;
+}
+
+.nav {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.na img {
+
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+}
+.seatpage{
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+}
+
+.seatpara{
+    margin-top: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.layout_page{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    /* background-color: brown; */
+
+}
+.seat_details{
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.berth{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+.berth img{
+     margin-left: 15px;
+    height: 30px;
+    border-radius: 5px;
+  
+}
+.berth p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+.seater{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.seater p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.seater img{
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.journey_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.buslayouts{
+    height: 700px;
+    width: 300px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+
+.seatlayout{
+    height: auto;
+    width: 280px;
+    background-color:  rgb(234, 81, 203);
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    gap: 60px;
+
+}
+
+.leftseat{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.rightseat{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.lseat{
+    display: flex;
+    flex-direction:column ;
+    gap: 8px;
+}
+.lseat img{
+    height: 40px;
+}
+.lseat p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.rseat{
+    display: flex;
+    flex-direction:column ;
+    gap: 8px;  
+}
+.rseat img{
+    height: 40px;
+}
+.rseat p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.seat{
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seat.selected {
+  background-color: green;
+}
+.bookse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt{
+    background-color: blue;
+    height: 35px;
+    width: 120px;
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+
+}
